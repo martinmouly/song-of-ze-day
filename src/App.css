@@ -19,7 +19,6 @@ button {
 }
 
 .button-5 {
-  font-family: "Spotify Font";
   align-items: center;
   background-clip: padding-box;
   background-color: #1DB954;
@@ -30,8 +29,9 @@ button {
   color: #fff;
   cursor: pointer;
   display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
-  font-weight: 1000;
+  font-weight: 600;
   justify-content: center;
   line-height: 1.25;
   margin: 0;
@@ -54,15 +54,4 @@ button {
 
 .button-5:hover {
   transform: translateY(-1px);
-}
-
-p {
-  color: wheat;
-  font-family: "Spotify Font";
-}
-
-@font-face {
-  font-family: "Spotify Font";   /*Can be any text*/
-  src: local("GothamLight"),
-    url("./GothamLight.ttf") format("truetype");
 }
