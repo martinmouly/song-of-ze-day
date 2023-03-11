@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function App() {
   const buttonOnClick = () => {
-    const url = "https://open.spotify.com/track/56NkIxSZZiMpFP5ZNSxtnT?si=d2319fcd25274828"
+    const url = "https://open.spotify.com/track/54YY9VsZn8sbwXht0VAKZB?si=TX90XiuLSXGqgt3xs5gxug&app_destination=copy-link"
     window.open(url)
   }
   return (
