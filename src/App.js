@@ -16,7 +16,7 @@ function App() {
   }, []);
 
   const buttonOnClick = () => {
-    const url = "https://open.spotify.com/track/54YY9VsZn8sbwXht0VAKZB?si=TX90XiuLSXGqgt3xs5gxug&app_destination=copy-link"
+    const url = "https://open.spotify.com/track/21QP04tL7tT6uHjhXNr0FJ?si=ef1324b30a0d40a7"
     window.open(url)
   }
 
