@@ -4,6 +4,8 @@ import axios from 'axios'
 import { useLayoutEffect } from 'react';
 
 function App() {
+  
+  const url = "https://open.spotify.com/track/0hmxVkpxbcdHAXUoZ7DeCQ?si=03f1b1a9bc0a4fd8"
 
   useLayoutEffect(() => {
     const getData = async () => {
@@ -16,7 +18,6 @@ function App() {
   }, []);
 
   const buttonOnClick = () => {
-    const url = "https://open.spotify.com/track/21QP04tL7tT6uHjhXNr0FJ?si=ef1324b30a0d40a7"
     window.open(url)
   }
 
