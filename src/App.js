@@ -5,7 +5,7 @@ import { useLayoutEffect } from 'react';
 
 function App() {
   
-  const url = "https://open.spotify.com/track/0hmxVkpxbcdHAXUoZ7DeCQ?si=03f1b1a9bc0a4fd8"
+  const url = "https://open.spotify.com/track/08l9WKDuRyGeStQ9ojTlFh?si=6dccc228655d4a8a"
 
   useLayoutEffect(() => {
     const getData = async () => {
