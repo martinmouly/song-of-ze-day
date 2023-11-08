@@ -1,1 +1,2 @@
-A new song for you, every day --> thesoundwhenleatherjacketshittheground.live
+Click [-->here<--](https://thesoundwhenleatherjacketshittheground.live) to listen to my song of the day 
+
