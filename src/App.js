@@ -1,24 +1,12 @@
 import './App.css';
 import spotifyLogo from './spotify-logo.png'
-import axios from 'axios'
-import { useLayoutEffect } from 'react';
+import { useEffect, useState } from 'react';
+import tracks from './song_data/selected_track.json';
 
 function App() {
-  
-  const url = "https://open.spotify.com/track/3clIHVzJ9J2rvvrFUKLICo?si=803b6761b654486a"
-
-  useLayoutEffect(() => {
-    const getData = async () => {
-      const res = await axios.get('https://geolocation-db.com/json/')
-      console.log(res.data)
-    }
-    
-    console.log("NEW USER")
-    getData()
-  }, []);
-
+  const songUrl = tracks.url
   const buttonOnClick = () => {
-    window.open(url)
+    window.open(songUrl)
   }
 
   return (
