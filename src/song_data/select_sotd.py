@@ -27,4 +27,4 @@ with open('selected_track.json', 'w') as output_file:
 print("Song details written to selected_track.json")
 
 # Set environment variable to indicate that a song has been selected
-os.environ["SELECTED"] = title + " - " + artist + 
+os.environ["SELECTED"] = title + " - " + artist 
