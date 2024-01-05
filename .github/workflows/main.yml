@@ -26,10 +26,11 @@ jobs:
 
       - name: Commit changes
         run: |
+          export SELECTED=$(cat src/song_data/selected_track.txt)
           git config --local user.email "martin@mouly.name"
           git config --local user.name "martinmouly"
           git add -A
-          
+            
           git commit -m "$SELECTED"
           
       - name: GitHub Push

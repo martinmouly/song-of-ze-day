@@ -24,7 +24,6 @@ result = {
 with open('selected_track.json', 'w') as output_file:
     json.dump(result, output_file, indent=4)
 
-print("Song details written to selected_track.json")
-
-# Set environment variable to indicate that a song has been selected
-os.environ["SELECTED"] = title + " - " + artist 
+# Write song details to a text file
+with open ('selected_track.txt', 'w') as output_file:
+    output_file.write(title + " - " + artist)
